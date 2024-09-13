@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1>Mijn portfolio</h1>
-<img src="./Assets/Images/20230530_190848.jpg" height="350" alt="Leander Derkse">
+    <nav>
+<h1><a href="../index.html" class="heading">Leander Derkse</a></h1>
+<a href="./Public/Werkervaring.html">Werkervaring</a>
+<a href="./Public/portfolio.html">Portfolio</a>
+<a href="./Public/Hobbies.html">Hobbies</a>
+<a href="./Public/contact.html">Contact</a>
+</nav>
 
 <h2>Persoonlijk profiel</h2>
+<img src="./Assets/Images/20230530_190848.jpg" height="350" alt="Leander Derkse"  class="profielfoto">
 <p>Mijn meest typerende eigenschappen zijn mijn eerlijkheid, leergierigheid en vermogen om naar mijn intuïtie te luisteren en handelen. 
     Ik sta bekend om mijn creatieve manier van denken en van daaruit het verkrijgen en delen van nieuwe inzichten. 
     In teamverband ben ik een kritische denker die dit op een prettige manier weet te delen met de mensen om mij heen. 
@@ -20,34 +30,44 @@
     Ik ben erg stressbestendig en weet op een gelijkwaardige manier regie te houden in casuïstiek. 
     Bij het tegenkomen van problemen ben ik de eerste die op zoek gaat naar oplossingen en inspireer ik daarmee mijn omgeving om anders te durven denken. 
     Cliënten omschreven mij doorgaans als een betrokken en prettige gesprekspartner.</p>
-    <hr/>
 
-<h2>Opleidingen</h2>
+<h2 class="opleidingen">Opleidingen</h2>
+<div class="opleidingen-1">
 <h3>Hogeschool Windesheim (sept 2018 - Jan 2023)</h3>
 <p>Bachelor of Social Work with Honours</p>
 <br>
 <h3>Helicon (sept 2011 - Jun 2015)</h3>
 <p>Outdoor Manager MBO niveau 4</p>
-<hr>
-
+</div>
 <h2>Werkervaring</h2>
+<div class="werkervaring">
+    
+<div class="card one">
 <h3>Uitkeringsdeskundige faillisementen</h3>
 <p>UWV jan 2024 - heden.</p>
 <ul>
     <li>Aanvragen uitkeringen beoordelen.</li>
     <li>Hulpvragen cliënten telefonisch beantwoorden.</li>
 </ul>
+</div>
+
+<div class="card one">
 <h3>Junior schuldhulpverlener</h3>
 <p>Ennea (mrt 2023 - sept 2023).</p>
 <ul>
     <li>Trainingen volgen voor schuldhulpverlening.</li>
     <li>SHV opdrachten voor gemeenten uitvoeren.</li>
 </ul>
+</div>
+
+<div class="card two">
 <h3>Courier</h3>
 <p>Fleetport (apr 2020 - sept 2020).</p>
 <ul>
     <li>auto's van en naar cliënten vervoeren.</li>
     </ul>
+</div>
+    <div class="card three">
     <h3>Acteur en horecamedewerker</h3>
 <p>The Great Escape (feb 2019 - apr 2020).</p>
 <ul>
@@ -55,6 +75,8 @@
     <li>Acteren in de escape room.</li>
     <li>Achter de schermen begeleiden van de groepen in de escape room.</li>
 </ul>
+</div>
+<div class="card four">
 <h3>Klantenservice medewerker</h3>
 <p>Conduent(mrt 2018 - jan 2019).</p>
 <ul>
@@ -62,28 +84,35 @@
     <li>Klanten helpen bij verschillende vragen en problemen.</li>
     <li>Achter de schermen begeleiden van de groepen in de escape room.</li>
 </ul>
+</div>
+<div class="card five">
 <h3>Taxichauffeur zorg</h3>
 <p>Taxibedrijf Witteveen (apr 2017 - aug 2017).</p>
 <ul>
     <li>Basisschool leerlingen ophalen van huis en afzetten op school.</li>
     <li>Ouderen ophalen van huis en afzetten bij de zorginstelling.</li>
 </ul>
+</div>
+<div class="card six">
 <h3>Hoofdinstructeur</h3>
-<p>Gochallenge Outdoorpark Heino(mrt 2016 - oktjan 2016).</p>
+<p>Gochallenge Outdoorpark Heino(mrt 2016 - okt 2016).</p>
 <ul>
     <li>Plannen en aansturen van de instructeurs.</li>
     <li>Begeleiden van groepen.</li>
     <li>Hoogteparcours controleren en mensen redden wanneer dit nodig was.</li>
 </ul>
+</div>
+<div class="card seven">
 <h3>Docent en jongerencoach</h3>
 <p>Pulsar B.V.(aug 2012 - mei 2014).</p>
 <ul>
     <li>Jongeren weekenden organiseren.</li>
     <li>Coachen van jongeren.</li>
 </ul>
-<hr/>
-
+</div>
+</div>
 <h2>skills</h2>
+<div class="skills">
 <ul>
     <li>Leergierig.</li>
     <li>Creatief.</li>
@@ -93,10 +122,12 @@
     <li>Coaching</li>
     <li>Rijbewijs B</li>
 </ul>
-<hr/>
+</div>
 <h2>Certificaten</h2>
 
-<a href="./Public/contact.html">Contact</a>
-<a href="./Public/Hobbies.html">Hobbies</a>
+
 </body>
+<footer>
+    @LeanderDerkse
+</footer>
 </html>
